@@ -1,0 +1,22 @@
+.button {
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text-main);
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+.button:active {
+  filter: brightness(0.8);
+}
+
+.button.regular {
+  background-color: var(--color-bg-regular);
+}
+
+.button.accent {
+  background-color: var(--color-bg-accent);
+}

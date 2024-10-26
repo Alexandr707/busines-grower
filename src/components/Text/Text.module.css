@@ -1,0 +1,11 @@
+.text {
+  font-size: 0.8125rem;
+}
+
+.textGlimmer {
+  color: var(--color-text-glimmer);
+}
+
+.textMain {
+  color: var(--color-text-main);
+}

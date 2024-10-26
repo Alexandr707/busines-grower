@@ -1,0 +1,22 @@
+:root {
+  --vh: 1vh;
+  --border-radius: 8px;
+  --offset-1: 16px;
+  --offset-2: 20px;
+  --color-accent: #0098eb;
+  --color-regular: #2e2e2e;
+
+  --color-text-main: #ffffff;
+  --color-text-glimmer: #9f9f9f;
+
+  --color-bg: #1a1a1a;
+  --color-bg-accent: var(--color-accent);
+  --color-bg-regular: var(--color-regular);
+
+  --icon-size-1: 20px;
+  --icon-size-2: 24px;
+  --icon-size-3: 28px;
+  --icon-size-4: 40px;
+
+  --avatar-size: 75px;
+}

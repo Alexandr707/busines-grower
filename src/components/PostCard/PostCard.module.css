@@ -1,0 +1,41 @@
+.post {
+  padding-bottom: 140%;
+  position: relative;
+}
+
+.postPhoto {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.postPhoto img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+}
+
+.postFront {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pin {
+  padding: 0;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  border: none;
+  background-color: transparent;
+}
+
+.views {
+  position: absolute;
+  left: 7px;
+  bottom: 7px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background-color: transparent;
+}

@@ -1,0 +1,21 @@
+.navigationContent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.navigationItem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  color: var(--color-text-glimmer);
+  cursor: pointer;
+}
+
+.navigationItem.active {
+  color: var(--color-text-main);
+}

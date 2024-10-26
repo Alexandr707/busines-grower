@@ -1,0 +1,5 @@
+export * from './ChatPage/ChatPage'
+export * from './HomePage/HomePage'
+export * from './ProfilePage/ProfilePage'
+export * from './SearchPage/SearchPage'
+export * from './UploadPage/UploadPage'

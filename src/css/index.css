@@ -1,0 +1,74 @@
+@import "./reset.css";
+@import "./variables.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  background-color: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+body,
+html {
+  font-family: "Arial", sans-serif;
+  min-height: calc(var(--vh) * 100);
+  color: var(--color-text-main);
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: var(--color-bg);
+}
+
+/*----------- wrapper ------------*/
+.wrapper {
+  height: calc(var(--vh) * 100);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: var(--bg-secondery);
+}
+
+.wrapper-header {
+  flex: none;
+  background-color: inherit;
+}
+
+.wrapper-content {
+  flex: 1 1;
+  background-color: inherit;
+  overflow: auto;
+}
+
+.wrapper-footer {
+  float: none;
+  margin-top: auto;
+  background-color: inherit;
+}
+/*---------------------------------*/
+
+/*----------- icon ----------------*/
+.icon {
+}
+
+.icon-small {
+  width: var(--icon-size-1);
+  height: var(--icon-size-1);
+}
+
+.icon-medium {
+  width: var(--icon-size-2);
+  height: var(--icon-size-2);
+}
+
+.icon-medium-2 {
+  width: var(--icon-size-3);
+  height: var(--icon-size-3);
+}
+
+.icon-large {
+  width: var(--icon-size-4);
+  height: var(--icon-size-4);
+}
+/*---------------------------------*/
